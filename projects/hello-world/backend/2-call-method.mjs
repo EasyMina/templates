@@ -2,11 +2,8 @@ import { Mina, Field } from 'o1js'
 import { EasyMina } from './../../../src/EasyMina.mjs'
 
 console.log('🌐 Adding Network...')
-const Berkeley = Mina.Network( 
-    // 'https://proxy.berkeley.minaexplorer.com/graphql' 
-    'https://api.minascan.io/node/berkeley/v1/graphql'
-)
-Mina.setActiveInstance(Berkeley)
+const Berkeley = Mina.Network( 'https://api.minascan.io/node/berkeley/v1/graphql' )
+Mina.setActiveInstance( Berkeley )
  
 console.log('✨ Adding EasyMina...')
 const easyMina = new EasyMina({ 'networkName': 'berkeley' })
