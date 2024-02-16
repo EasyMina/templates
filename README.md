@@ -9,14 +9,9 @@ This repository serves as a central hub for templates and documentation for func
 - Structured storage of text scripts, images, and code by example projects and functions in preparation for later generation
 - 
 
-### Code
-
-This example shows how to query public Nodes with Node.js.
-
 ## Table of Contents
 - [Templates for EasyMina](#templates-for-easymina)
   - [Features:](#features)
-    - [Code](#code)
   - [Table of Contents](#table-of-contents)
   - [License](#license)
 
