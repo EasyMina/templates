@@ -2,7 +2,7 @@
 
 # Templates for EasyMina
 
-This repository serves as a central hub for templates and documentation for functions. This folder is used to generate learning content as automated as possible using AI-supported tools.
+This repository serves as a central hub for `projects` and `documentation for functions`. This folder is used to generate learning content as automated as possible using AI-supported tools.
 
 ## Features:
 - Consolidation of all learning content into one folder
