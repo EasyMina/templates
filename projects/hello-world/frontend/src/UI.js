@@ -1,6 +1,6 @@
 const UI = class UI extends EventTarget {
     #config
-    #state
+    #state 
 
 
     constructor() {

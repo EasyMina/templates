@@ -1,4 +1,4 @@
-const ui = new UI()
+const ui = new UI() 
 
 
 const Step = class Step extends EventTarget {

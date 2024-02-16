@@ -60,9 +60,9 @@ console.log('🚚 Sending Transaction')
 const response = await signedMessage.send()
 
 console.log('💾 Saving Contract')
-const deployedContract = await easyMina.saveContract({ 
+const deployedContract = await easyMina.saveContract( { 
     response,
     verificationKey
-})
+} )
 
 console.log('   Explorer:', deployedContract['header']['txHashExplorer'])
